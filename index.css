@@ -1,0 +1,85 @@
+/* Write your code here. */
+.bgContainer {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png");
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .head {
+    color: white;
+    font-family: "Bree Serif";
+  }
+  .buttonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .like-button {
+    background-color: #eab308;
+    border-radius: 5px;
+    border-width: 0px;
+    color: white;
+    height: 25px;
+    width: 55px;
+    font-family: Roboto;
+    margin: 8px;
+  }
+  .comment {
+    background-color: #ffffff;
+    border-radius: 5px;
+    border-width: 0px;
+    font-family: Roboto;
+    height: 25px;
+    margin: 10px;
+  }
+  .share {
+    background-color: #1d4ed8;
+    border-radius: 5px;
+    border-width: 0px;
+    color: white;
+    height: 25px;
+    font-family: Roboto;
+    width: 55px;
+    margin: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .head {
+    color: white;
+    font-family: "Bree Serif";
+    width: 250px;
+  }
+  .like-button {
+    background-color: #eab308;
+    border-radius: 5px;
+    border-width: 0px;
+    color: white;
+    height: 25px;
+    width: 55px;
+    font-family: Roboto;
+    margin: 8px;
+  }
+  .comment {
+    background-color: #ffffff;
+    border-radius: 5px;
+    border-width: 0px;
+    font-family: Roboto;
+    height: 25px;
+    margin: 10px;
+  }
+  .share {
+    background-color: #1d4ed8;
+    border-radius: 5px;
+    border-width: 0px;
+    color: white;
+    height: 25px;
+    font-family: Roboto;
+    width: 55px;
+    margin: 10px;
+  }
+}
